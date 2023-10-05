@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/bg-masthead.jpg);
+  background-position: center center;
+}
+#header .heading {
+  width: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+#header .heading h1 {
+  font-size: 64px;
+}
+#header .heading p {
+  font-size: 1.75rem;
+}
+#header .heading a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px;
+  background-color: #1D809F;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+#nextProject {
+  height: 40vh;
+  position: relative;
+}
+#nextProject .container {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+#nextProject .container h2 {
+  font-size: 32px;
+}
+#nextProject .container p {
+  font-size: 20px;
+}
+#nextProject .container a {
+  padding: 20px 40px;
+  background-color: #212529;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#whatWeOffer {
+  height: 60vh;
+  background-color: #1D809F;
+  color: white;
+  position: relative;
+}
+#whatWeOffer .container {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 120px 0px;
+}
+#whatWeOffer .container .heading {
+  margin-bottom: 50px;
+}
+#whatWeOffer .container .heading p {
+  color: #ecb807;
+  font-size: 16px;
+}
+#whatWeOffer .container .heading h2 {
+  font-size: 48px;
+}
+#whatWeOffer .container .cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+#whatWeOffer .container .cardContainer .cards {
+  width: 300px;
+}
+#whatWeOffer .container .cardContainer .cards .icon {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+  color: #1D809F;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+}
+#whatWeOffer .container .cardContainer .cards .icon i {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin-bottom: 20px;
+}
+#whatWeOffer .container .cardContainer .cards h3 {
+  font-size: 24px;
+}
+#whatWeOffer .container .cardContainer .cards p {
+  padding: 20px 0;
+}
+
+#welcome {
+  height: 65vh;
+  background: url(../img/bg-callout.jpg);
+  background-position: center center;
+  position: relative;
+}
+#welcome .container {
+  width: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+#welcome .container h2 {
+  font-size: 56px;
+  margin: 30px;
+}
+#welcome .container p {
+  font-size: 20px;
+}
+#welcome .container a {
+  padding: 20px 40px;
+  background-color: #1D809F;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#recentProjects {
+  height: 100vh;
+  padding: 120px 0;
+}
+#recentProjects .heading {
+  width: 100%;
+  text-align: center;
+}
+#recentProjects .heading p {
+  color: #ecb807;
+  font-size: 16px;
+}
+#recentProjects .heading h2 {
+  font-size: 48px;
+}
+#recentProjects .container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+#recentProjects .container .posts {
+  width: 50%;
+  height: 400px;
+  background: url(../img/portfolio-1.jpg);
+}
+#recentProjects .container .posts .content {
+  width: 100%;
+  padding: 100px;
+  color: white;
+  position: relative;
+  top: 50%;
+}
+#recentProjects .container .posts .content h3 {
+  font-size: 13px;
+}
+#recentProjects .container .posts .content p {
+  font-size: 19px;
+}
+
+#buttons {
+  height: 30vh;
+  position: relative;
+  background-color: #1D809F;
+  color: white;
+}
+#buttons .container {
+  width: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+#buttons .container h2 {
+  font-size: 32px;
+  margin: 30px;
+}
+#buttons .container p {
+  font-size: 20px;
+}
+#buttons .container a {
+  padding: 30px 40px;
+  background-color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}/*# sourceMappingURL=main.css.map */

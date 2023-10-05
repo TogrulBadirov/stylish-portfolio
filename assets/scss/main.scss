@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// header start
+#header{    
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-masthead.jpg);
+    background-position: center center;
+    .heading{
+        width: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        h1{
+            font-size: 64px;
+        }
+        p{
+            font-size: 1.75rem;
+            
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 20px 40px;
+            background-color: #1D809F ;
+            border-radius: 6px;
+            display: inline-block;
+            
+        }
+    }
+}
+// header end
+
+// nextProject start
+#nextProject{
+    height: 40vh;
+    position: relative;
+    .container{
+        width: 70%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        h2{
+            font-size: 32px;
+        }
+        p{
+            font-size: 20px;
+        }
+        a{
+            padding: 20px 40px;
+            background-color: #212529;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+        }
+    }
+}
+// nextProject end
+
+// whatWeOffer start
+#whatWeOffer{
+    height: 60vh;
+    background-color: #1D809F;
+    color: white;
+    position: relative;
+    .container{
+        width: 100%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        padding: 120px 0px;
+        .heading{
+            p{
+                color: #ecb807;
+                font-size: 16px;
+            }
+            h2{
+                font-size: 48px;
+                
+            }
+            margin-bottom: 50px;
+        }
+        .cardContainer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            .cards{
+                width: 300px;
+                .icon{
+                    width: 112px;
+                    height: 112px;
+                    border-radius: 50%;
+                    background-color: white;
+                    margin: 0 auto;
+                    color: #1D809F;
+                    font-size: 32px;
+                    position: relative;
+                    margin-bottom: 20px;
+                    i {
+                        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        margin-bottom: 20px;
+                    }
+                    
+                    
+                }
+                h3{
+                    font-size: 24px;
+                }
+                p{
+                    padding: 20px 0;
+                    
+                    
+                }
+            }
+        }
+    }
+}
+// whatWeOffer end
+
+// welcome start
+#welcome{
+    height: 65vh;
+    background: url(../img/bg-callout.jpg);
+    background-position: center center;
+    position: relative;
+    .container{
+        width: 30%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        h2{
+            font-size: 56px;
+            margin: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+        a{
+            padding: 20px 40px;
+            background-color: #1D809F;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+        }
+    }
+}
+// welcome end
+
+// recentProjects start
+#recentProjects{
+    height: 100vh;
+    padding: 120px 0;
+    .heading{
+        width: 100%;
+        text-align: center;
+        p{
+            color: #ecb807;
+            font-size: 16px;
+        }
+        h2{
+            font-size: 48px;
+        }
+    }
+    .container{
+        display: flex;
+        width: 100%;
+        margin: auto;
+    flex-wrap: wrap;
+    max-width: 1200px;
+        .posts{
+            width: 50%;
+            height: 400px;
+            background: url(../img/portfolio-1.jpg);
+            .content{
+                width: 100%;
+                padding: 100px;
+                color: white;
+                position: relative;
+                top: 50%;
+                
+                h3{
+                    font-size: 13px;
+                    
+                }
+                p{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
+// recentProjects end
+
+// buttons start
+#buttons{
+    height: 30vh;
+    position: relative;
+    background-color: #1D809F;
+    color: white;
+    .container{
+        width: 30%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        h2{
+            font-size: 32px;
+            margin: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+        a{
+            padding: 30px 40px;
+            background-color: white;
+            
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+        }
+    }
+}
+// buttons end
